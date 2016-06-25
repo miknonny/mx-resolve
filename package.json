@@ -1,6 +1,6 @@
 {
   "name": "mx-resolve",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolves a list of mails to their corresponding mail providers.",
   "main": "index.js",
   "scripts": {
