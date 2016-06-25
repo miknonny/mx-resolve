@@ -9,13 +9,14 @@ const fs = require('fs')
 
 
 if (process.argv.length < 3 ) {
+  console.log(process.argv[0])
   console.log('Usage: mx-resolve <searchTerm> <sourceFile> <destFile>')
   process.exit(1)
 }
 
-const domain = process.argv[1]
-const rl = readline(process.argv[2])
-const destFile = process.argv[3]
+const domain = process.argv[2]
+const rl = readline(process.argv[3])
+const destFile = process.argv[4]
 
 
 
