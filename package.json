@@ -1,6 +1,6 @@
 {
   "name": "mx-resolve",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Resolves a list of mails to their corresponding mail providers.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "mail",
     "record",
     "search",
-    "sort"
+    "sort",
+    "mx-echange"
   ],
   "author": "mbah michael <miknonny@gmail.com>",
   "license": "MIT",
