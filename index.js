@@ -9,7 +9,6 @@ const fs = require('fs')
 
 
 if (process.argv.length < 3 ) {
-  console.log(process.argv[0])
   console.log('Usage: mx-resolve <searchTerm> <sourceFile> <destFile>')
   process.exit(1)
 }
