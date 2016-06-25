@@ -1,6 +1,6 @@
 {
   "name": "mx-resolve",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Resolves a list of mails to their corresponding mail providers.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/miknonny/mx-resolve/issues"
   },
-  "homepage": "https://github.com/miknonny/mx-resolve#readme"
+  "homepage": "https://github.com/miknonny/mx-resolve#readme",
+  "dependencies": {
+    "cli-spinner": "0.2.5",
+    "color": "0.11.3",
+    "colors": "1.1.2",
+    "dns-then": "0.1.0",
+    "linebyline": "1.3.0"
+  }
 }
