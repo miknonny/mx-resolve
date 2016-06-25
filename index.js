@@ -4,9 +4,17 @@ const process = require('process')
 const colors = require('colors')
 const fs = require('fs')
 
+
+if (process.argv.length < 3 ) {
+  console.log('Usage: mx-resolve <searchTerm> <sourceFile> <destFile>')
+  process.exit(1)
+}
+
 const domain = process.argv[1]
 const rl = readline(process.argv[2])
 const destFile = process.argv[3]
+
+
 
 rl.on('line', (line, linecount) => {
   dns.resolveMx(line.split('@')[1])
