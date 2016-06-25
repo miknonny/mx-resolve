@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict'
+
 const dns = require('dns-then')
 const readline = require('linebyline')
 const process = require('process')
